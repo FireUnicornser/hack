@@ -1,5 +1,5 @@
 html {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 * {
@@ -25,20 +25,6 @@ fieldset {
   margin: 0;
 }
 
-pre {
-  padding: 2rem;
-  margin: 1.75rem 0;
-  background-color: white;
-  border: 1px solid #ccc;
-  overflow: auto;
-}
-
-pre code,
-code[class*="language-"], pre[class*="language-"] {
-  font-weight: 100;
-  text-shadow: none;
-  margin: 1.75rem 0;
-}
 
 a {
   cursor: pointer;

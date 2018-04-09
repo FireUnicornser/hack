@@ -10,21 +10,17 @@
 .hack h4,
 .hack h5,
 .hack h6,
-.hack code,
 .hack blockquote,
 .hack em,
-.hack strong,
-.hack code {
+.hack strong{
   font-size: 1rem;
   font-style: normal;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
-.hack code,
 .hack blockquote,
 .hack em,
-.hack strong,
-.hack code {
+.hack strong {
   line-height: 20px;
 }
 
@@ -34,7 +30,6 @@
 .hack h4,
 .hack h5,
 .hack h6,
-.hack code,
 .hack blockquote,
 .hack ol,
 .hack ul,
@@ -145,18 +140,6 @@
   content: "*";
   display: inline;
 }
-.hack pre code:before,
-.hack pre code:after {
-  content: '';
-}
-.hack code {
-  font-weight: 700;
-}
-.hack code:before,
-.hack code:after {
-  content: "`";
-  display: inline;
-}
 
 .hack hr {
   position: relative;
@@ -166,7 +149,7 @@
   margin: 20px 0;
 }
 .hack hr:after {
-  content: "----------------------------------------------------------------------------------------------------";
+  content: "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
   position: absolute;
   top: 0;
   left: 0;
